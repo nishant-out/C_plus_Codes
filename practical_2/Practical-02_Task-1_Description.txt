@@ -1,0 +1,28 @@
+Task 1:
+
+	Efficient program to Check if a number is prime or not:
+		
+		If number == 2:
+			Then definitely it is a Prime number
+			
+		If number % 2 == 0:
+			This is a Check for all Even numbers, As no Even number is Prime
+			
+		If number == 1:
+			Then it is not a Prime Number
+			
+		//	Now we have to Only check for Odd numbers >= 3 
+		
+		Loop through 3 to sqrt( n ):
+			
+			Check if it is Divisible by any odd Number
+				
+				If YES then it is not a Prime number
+				
+			Increment the Loop +2 times in Every Iteration to get a Odd no. always
+			
+			
+			
+		If NO Odd number is a multiple of n :
+		
+			Then it is a Prime Numnber
