@@ -1,0 +1,13 @@
+1.	All compilation processes
+
+This Code Helps us in understanding what happens inside the Compiler when we tries to compile our code
+
+Phase 1:
+          PreProcessor:   replaces macros And removes comments from our source code.
+Phase 2:
+          Compiler:       Converts our source code to assembly level and performs Syntax & Symantic Analysis( error checking )
+Phase 3:
+          Assembler:      Converts our Assembly code to machine code( low-level-lang. )
+Phase 4:
+          Linker:         takes one or more object files( machine code ) and combines them into a single executable file
+          
