@@ -4,7 +4,7 @@ using namespace std ;
 namespace first{
 
 	int add( int x, int y ){
-		cout << "In Int" << endl ;
+		cout << "In Int " ;
 		return x + y  ;
 	}
 }
@@ -12,7 +12,7 @@ namespace first{
 namespace second{
 
 	float add( float x, float y ){
-		cout << "In Float" << endl ;
+		cout << "In Float "  ;
 		return x + y  ;
 	}
 }
@@ -23,7 +23,12 @@ namespace second{
 int main(){
 
 	cout << add( 2, 4 ) << endl ;
-	cout << add( 2.2, 4.2 ) << endl ;
+
+	cout << add( 2, 4.2 ) << endl ;
+
+	cout << add( 2.2, 4 ) << endl ;
+
+	cout << add( 2.2f, 4.2f ) << endl ;	//	By Default float is double
 
 	return 0;
 }
