@@ -1,0 +1,14 @@
+Task1:
+	use of .h file in cpp
+	
+Task2:
+	cout without using Header file
+	
+Task3:
+	Part1:
+		input a string in a char var
+		//	Makes loss of data when more than 1 char is entered
+		
+	Part2:
+		correct the initial prob.
+		//	Using cin.getline( ) function
