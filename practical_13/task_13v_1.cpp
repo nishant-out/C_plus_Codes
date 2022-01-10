@@ -24,4 +24,6 @@ int main(){
     
     Child obj;
     cout << "sum: " << obj.add( 5, 5 ) << endl;
+    
+    //  Overidden method is of int type
 }
