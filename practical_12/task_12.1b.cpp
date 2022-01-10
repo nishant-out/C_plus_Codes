@@ -44,7 +44,7 @@ int main(){
     obj.set(    );
     
     // cout << obj.x << endl;  //  Can't access private mem.
-    cout << obj.y << endl;
+    cout << obj.y << endl;      //  op: 6
     // cout << obj.z << endl;  //  Can't access protected mem.
     
     return 0;
